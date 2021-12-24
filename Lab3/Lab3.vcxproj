@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="TStack.h" />
-    <ClInclude Include="TStackList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

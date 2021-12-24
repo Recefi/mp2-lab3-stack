@@ -1,6 +1,5 @@
 #pragma once
 #include "TStack.h"
-#include "TStackList.h"
 #include <string>
 #include <cmath>
 
@@ -8,18 +7,9 @@ class Calculator {
 private:
 	std::string expr;
 	std::string postfix;
-
-	// Стек на массиве
-
 	TStack<char> stackChar;
 	TStack<double> stackDouble;
 
-
-	// Стек на списке
-	/*
-	TStackList<char> stackChar;
-	TStackList<double> stackDouble;
-	*/
 
 	int prior(char op) {
 		switch (op) {
